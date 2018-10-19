@@ -1,0 +1,72 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Reese's Puffs",
+      "type": "Cereal",
+      "ethnicity": "American",
+      "can eat": false,
+      "barcode": "0016000121850"
+    },
+    {
+      "id": 2,
+      "name": "Cheese Enchilada",
+      "type": "Enchilada",
+      "ethnicity": "Hispanic",
+      "can eat": true,
+      "barcode": "0042272000807"
+    },
+    {
+      "id": 3,
+      "name": "Brown Rice Pasta",
+      "type": "Pasta",
+      "ethnicity": "Italian",
+      "can eat": true,
+      "barcode":"0073416006102"
+    },
+    {
+      "id": 4,
+      "name": "Cheese Pizza",
+      "type": "Vegetarian",
+      "ethnicity": "Italian",
+      "can eat": false,
+      "barcode":"0042272001019"
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "type": "Soup",
+      "ethnicity": "American",
+      "id": 5,
+      "can eat": false,
+      "barcode":"0041196911169"
+    }
+  ],
+  "dessert": [
+    {
+      "name": "Brownies",
+      "type": "dessert",
+      "ethnicity": "delicious",
+      "id": 1
+    },
+    {
+      "name": "Cookies",
+      "type": "dessert",
+      "ethnicity": "delicious",
+      "id": 2
+    }
+  ],
+  "drink": [
+    {
+      "name": "Iced Tea",
+      "type": "sweet",
+      "ethnicity": "southern",
+      "id": 1
+    },
+    {
+      "name": "Coffee",
+      "type": "caffeinated",
+      "ethnicity": "everyone",
+      "id": 2
+    }
+  ]
+}
