@@ -1,13 +1,13 @@
-let elementFactory = (el, content, {id, clazz}, ...children)=>{
-  let elemtnt = document.createElement(el)
-  elementFactory.innerHTML = content || null
-  children.forEach( child => {
-    elemtnt.appendChild(child)
-  })
-  element.setAttribute("id", id)
-  elemtnt.setAttribute("class", clazz)
-  return elemtnt
-}
+// let elementFactory = (el, content, {id, clazz}, ...children)=>{
+//   let elemtnt = document.createElement(el)
+//   elementFactory.innerHTML = content || null
+//   children.forEach( child => {
+//     elemtnt.appendChild(child)
+//   })
+//   element.setAttribute("id", id)
+//   elemtnt.setAttribute("class", clazz)
+//   return elemtnt
+// }
 
 // pull keys out of an object to use as variables
 let obj = {name: "Fred", age: 13}
@@ -46,22 +46,22 @@ fetch(myapi)
 
 // PROMISES.all method
 
-let elementFactory = (el, content, {id, clazz}, ...children)=>{
-  let element = document.createElement(el)
-  element.innerHTML = content || null
-  children.forEach(child => {
-    element.appendChild(child)
-  })
-  element.setAttribute("id", id)
-  element.setAttribute("class", clazz)
-  return element
-}
+// let elementFactory = (el, content, {id, clazz}, ...children)=>{
+//   let element = document.createElement(el)
+//   element.innerHTML = content || null
+//   children.forEach(child => {
+//     element.appendChild(child)
+//   })
+//   element.setAttribute("id", id)
+//   element.setAttribute("class", clazz)
+//   return element
+// }
 
-let foodList = document.querySelector("#foodList")
+// let foodList = document.querySelector("#foodList")
 
-let localFood = []
+// let localFood = []
 
-let apiPromises = []
+// let apiPromises = []
 
 fetch(myApiData)
   .then((foodDataJson)=>foodDataJson.json())
